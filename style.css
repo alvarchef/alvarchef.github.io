@@ -276,7 +276,7 @@ header {
     position: relative;
 }
 
-header::before 
+/* header::before 
 {
     content: "";
     position: absolute;
@@ -288,7 +288,7 @@ header::before
     height: 100%;
     background: url(/assets/overlay-pattern.png) #000000;
     opacity: 0.3;
-}
+} */
 
 header .intro-text {
     padding-top: 100px;
