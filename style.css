@@ -56,6 +56,21 @@ h6 {
     font-weight: 700;
 }
 
+.container 
+{
+    overflow: hidden;
+}
+
+.col-md-img 
+{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
 .img-centered {
     margin: 0 auto;
 }
@@ -170,6 +185,17 @@ fieldset[disabled] .btn-xl.active {
 .btn-xl .badge {
     color: #fed136;
     background-color: #fff;
+}
+
+.col-right-content 
+{
+    text-align: left;
+    padding-left: 50px;
+}
+
+.navbar .container 
+{
+    overflow: inherit;
 }
 
 .navbar-default {
