@@ -63,12 +63,18 @@ h6 {
 
 .col-md-img 
 {
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     height: auto;
     left: 0;
     top: 0;
     right: 0;
+}
+
+#about .row 
+{
+    display: flex;
+    justify-content: center;
 }
 
 .img-centered {
