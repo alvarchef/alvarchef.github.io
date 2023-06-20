@@ -265,13 +265,15 @@ header {
     text-align: center;
     color: rgba(0,0,0,.5);
     background-attachment: scroll;
-    background-image: url(/assets/banner_bg.jpg);
-    background-position: center center;
+    background-image: url(/assets/banner_bg2.jpg);
+    /* background-position: center center; */
+    background-position: 100% 15%;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    position: relative;
 }
 
 header::before 
@@ -312,8 +314,8 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+        padding-top: 150px;
+        padding-bottom: 100px;
     }
 
     header .intro-text .intro-lead-in {
